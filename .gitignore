@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 학습 데이터셋 (679MB, 재학습 시에만 필요 — 저장소에 포함하지 않음)
+Watermelon.coco/
+
+# 시각화/디버그 산출물 (재생성 가능)
+body_check/
+*_overlay.jpg
+*_mask.png
+*_extracted.jpg
+*_debug_*.jpg
+
+# 모델 백업
+sugar_model_old_*.pkl
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
