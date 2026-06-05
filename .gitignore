@@ -9,6 +9,18 @@ env/
 # 학습 데이터셋 (679MB, 재학습 시에만 필요 — 저장소에 포함하지 않음)
 Watermelon.coco/
 
+# 학습/검증 도구 및 데이터 (로컬에만 보관, 앱 실행엔 불필요)
+retrain_sugar_model.py
+visualize_body_check.py
+compare_yolo_iou.py
+validate_body_extraction.py
+coco_body_extractor.py
+hsv_tuner.py
+body_polygon_extraction_design.md
+watermelon_body_train.ipynb
+최종_수박_학습데이터_원본120.csv
+수박_특징_리뉴얼.csv
+
 # 시각화/디버그 산출물 (재생성 가능)
 body_check/
 *_overlay.jpg
